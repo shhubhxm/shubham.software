@@ -10,7 +10,7 @@ Created an ec2 instance on aws, i.e a basic linux ubuntu instance.
   * Remove all users except Admin user, which should have full control *Admin account should have all checkboxes checked on Allow column except special permission.
   * Click Apply and then click OK.
   * Or can follow this video: https://youtu.be/9ATMOTNWqZM
-  <img>
+ <img src="images/flowchart_3.png">
   
 * connected that instance on CMD through:
 ```python
