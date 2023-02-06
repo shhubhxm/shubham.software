@@ -3,7 +3,7 @@ This project requires me to set up the foundational components for their own web
 
 ### Step 1:
 Created an ec2 instance on aws, i.e a basic linux ubuntu instance.
-<img src="images/flowchart_3.png">
+<img src="images/1.png">
 
 * Changed the security settings for the key. 
   * Right-click on the target file and select properties then select Security Tab
@@ -12,7 +12,7 @@ Created an ec2 instance on aws, i.e a basic linux ubuntu instance.
   * Remove all users except Admin user, which should have full control *Admin account should have all checkboxes checked on Allow column except special permission.
   * Click Apply and then click OK.
   * Or can follow this video: https://youtu.be/9ATMOTNWqZM
- <img src="images/flowchart_3.png">
+ <img src="images/2.png">
   
 * connected that instance on CMD through:
 ```python
@@ -27,7 +27,7 @@ ssh -i shubham.sotwarekey.pem ubuntu@ec2-13-56-14-154.us-west-1.compute.amazonaw
 
  ### Step 2:
 * Register your domain on name.com and enter the details like this:
-<img src="images/flowchart_3.png">
+<img src="images/3.png">
 
 * Created a website.
 * Copy the content of the website to virtual ubuntu through:
